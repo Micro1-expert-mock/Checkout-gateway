@@ -30,3 +30,157 @@
 *.exe
 *.out
 *.app
+ Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# -----------------------------
+# Node.js / TypeScript
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.backup
+yarn.lock.backup
+pnpm-lock.yaml.backup
+
+# Build output
+dist/
+build/
+lib/
+out/
+.next/
+.nuxt/
+.cache/
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# -----------------------------
+# Environment Variables / Secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local secret files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+config/secrets/
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+debug.log
+error.log
+access.log
+
+# -----------------------------
+# Test / Coverage
+# -----------------------------
+coverage/
+.nyc_output/
+junit.xml
+test-results/
+reports/
+
+# -----------------------------
+# Docker
+# -----------------------------
+.docker/
+docker-compose.override.yml
+
+# -----------------------------
+# Databases / Local Storage
+# -----------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+data/
+local-data/
+
+# -----------------------------
+# Payment Provider / Webhook Testing
+# -----------------------------
+stripe-cli/
+stripe.log
+webhook.log
+mock-payments-data/
+sandbox-transactions/
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------
+# Dependency / Package Caches
+# -----------------------------
+.npm/
+.yarn/
+.pnpm-store/
+
+# -----------------------------
+# Miscellaneous
+# -----------------------------
+*.bak
+*.tmp
+*.orig
+*.rej
